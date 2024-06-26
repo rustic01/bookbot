@@ -15,7 +15,7 @@ print(f"{len(words)} words found in the document")
 
 def sort_on(dict):
     return dict["num"]
-alphabet_dict.sort(reverse = True, key=sort_on)
+#alphabet_dict.sort(reverse = True, key=sort_on)
 print(alphabet_dict)
 print(len(words))
 print(len(file_contents))
